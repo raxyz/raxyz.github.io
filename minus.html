@@ -1,27 +1,192 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  </head>
-  <body>
+    <title>Minus</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
     <div id="main"></div>
 
+    <a href="https://drive.google.com/drive/folders/192w7KsXFNSCDtt81MJ6yd5cGD7XmBJ1X?usp=drive_link" target="_blank">Full list</a>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
     <script>
+        document.addEventListener('play', function(e) {
+            var audios = document.getElementsByTagName('audio');
+
+            for (var i = 0, len = audios.length; i < len; i++) {
+                if (audios[i] != e.target) {
+                    audios[i].pause();
+                }
+            }
+        }, true);
+        
         const data = [
             {
                 id: 1,
                 title: "Saint Asonia - Waste My Time",
                 lyricsUrl: "https://www.google.com/search?q=saint+asonia+waste+my+time+lyrics&oq=saint+asonia+waste+my+time+lyrics",
                 minusUrl: "http://docs.google.com/uc?export=open&id=156lz3E6BSU-nxalJ86fn8Qb_dbWXgtxD"
+            },
+            {
+                id: 2,
+                title: "Friday Pilot Club - End of It",
+                lyricsUrl: "https://www.google.com/search?q=Friday+Pilot+Club+-+End+of+It+lyrics",
+                minusUrl: "http://docs.google.com/uc?export=open&id=1th9eYac0_PIfWE6UMvSHy4xk9SXPZ3pw"
+            },
+            {
+                id: 3,
+                title: "Papa Roach - Leave a Light On",
+                lyricsUrl: "https://www.google.com/search?q=Papa+Roach+-+Leave+a+Light+On+lyrics",
+                minusUrl: "http://docs.google.com/uc?export=open&id=1tNSrZ1hNCKB6iBY6T6j5siyVrUXugKMW"
+            },
+            {
+                id: 4,
+                title: "Felix Hagan & the Family - Tough to Be a Dreamer",
+                lyricsUrl: "https://www.google.com/search?q=Felix+Hagan+%26+the+Family+-+Tough+to+Be+a+Dreamer+lyrics",
+                minusUrl: "http://docs.google.com/uc?export=open&id=14NHWL19aC0Am1wbSctOteHvcRs8Rvf3V"
+            },
+            {
+                id: 5,
+                title: "Thousand Foot Krutch - Untraveled Road",
+                lyricsUrl: "https://www.google.com/search?q=Thousand+Foot+Krutch+-+Untraveled+Road+lyrics",
+                minusUrl: "http://docs.google.com/uc?export=open&id=1LKOiWuQvJsp7Nb1NYFkONjSKCAzXNOr6"
+            },
+            {
+                id: 6,
+                title: "Danny Worsnop - Best Bad Habit",
+                lyricsUrl: "https://www.google.com/search?q=Danny+Worsnop+-+Best+Bad+Habit+lyrics",
+                minusUrl: "http://docs.google.com/uc?export=open&id=1C9IDCHtdJyJ8vnL8tSJJRSrTZU-cWz4c"
+            },
+            {
+                id: 7,
+                title: "Stone Sour - Through Glass",
+                lyricsUrl: "https://x-minus.pro/track/16487/through-glass"
+            },
+            {
+                id: 8,
+                title: "Burn The Ballroom - A Ship That Shared Your Name",
+                lyricsUrl: "https://www.google.com/search?q=Burn+The+Ballroom+-+A+Ship+That+Shared+Your+Name+lyrics",
+                minusUrl: "http://docs.google.com/uc?export=open&id=1eHv-5L-Q1BHsSF7ySKpt5rG6ORMR8bTK"
+            },
+            {
+                id: 9,
+                title: "Nothing But Thieves - Sorry",
+                lyricsUrl: "https://x-minus.pro/track/366457/sorry"
+            },
+            {
+                id: 10,
+                title: "Finger Eleven - Paralyzer",
+                lyricsUrl: "https://x-minus.pro/track/197954/paralyzer"
+            },
+            {
+                id: 11,
+                title: "The Cab - Lock Me Up",
+                lyricsUrl: "https://www.google.com/search?q=lock+me+up+the+cab#wptab=si:ACFMAn-NQkl3H6265t0r-8ceWzQU7TA2FhfjB7PCPnKu7wpWy2YAbKfuMMEXY-vtqMId_phWlcR8xlBdVbQ6nwLmrmd5CoHssxr91OnJm-RwAX8LjMT6RL8IB7EnNCiJTQMbU385CS4fhOW5kRbJEd0yHYrgRseDXtHNxUS562fI6qbmfLgXLdQ%3D",
+                minusUrl: "http://docs.google.com/uc?export=open&id=1UnLwe_Qyy2fCRcmKhJzwtzml_sUnu4TT"
+            },
+            {
+                id: 12,
+                title: "Mark Ronson, Bruno Mars - Uptown Fund",
+                lyricsUrl: "https://x-minus.pro/track/299700/uptown-funk"
+            },
+            {
+                id: 13,
+                title: "Sully Erna - Turn It Up!",
+                lyricsUrl: "https://www.google.com/search?q=Sully+Erna+-+Turn+It+Up+lyrics",
+                minusUrl: "http://docs.google.com/uc?export=open&id=1i49AN785AIVluuTHcGDmmakMVE0I0uJB"
+            },
+            {
+                id: 14,
+                title: "Rayn Gosling, Emma Stone - City Of Stars",
+                lyricsUrl: "https://x-minus.pro/track/410350/city-of-stars"
+            },
+            {
+                id: 15,
+                title: "Limp Bizkit - Behind Blue Eyes",
+                lyricsUrl: "https://x-minus.pro/track/485783/behind-blue-eyes"
+            },
+            {
+                id: 16,
+                title: "Ed Sheeran - Perfect",
+                lyricsUrl: "https://x-minus.pro/track/347268/perfect"
+            },
+            {
+                id: 17,
+                title: "Three Days Grace - The Chain",
+                lyricsUrl: "https://www.google.com/search?q=Three+Days+Grace+-+The+Chain+lyrics",
+                minusUrl: "http://docs.google.com/uc?export=open&id=1lmHwmBPHKhRl50Ut9xd5M7BEqrBT5NpZ"
+            },
+            {
+                id: 18,
+                title: "Muse - Won't Stand Down",
+                lyricsUrl: "https://x-minus.pro/track/585381/wont-stand-down"
+            },
+            {
+                id: 19,
+                title: "Josh Turner - Your Man",
+                lyricsUrl: "https://x-minus.pro/track/207045/your-man-4"
+            },
+            {
+                id: 20,
+                title: "Theory of a Deadman - Shape of My Heart",
+                lyricsUrl: "https://www.google.com/search?q=Theory+of+a+Deadman+-+Shape+of+My+Heart+lyrics",
+                minusUrl: "http://docs.google.com/uc?export=open&id=1zFQxl8sUQscmKwDMNVp2sV5rRT4rJioY"
+            },
+            {
+                id: 21,
+                title: "Egypt Central - 15 Minutes",
+                lyricsUrl: "https://www.google.com/search?q=Egypt+Central+-+15+Minutes+lyrics&oq=Egypt+Central+-+15+Minutes+lyrics",
+                minusUrl: "http://docs.google.com/uc?export=open&id=1NBl35h9sR18NgJwXtZGssHkCiJ5wBj3y"
+            },
+            {
+                id: 22,
+                title: "The Struts - Only Just A Call Away",
+                lyricsUrl: "https://www.google.com/search?q=The+Struts+-+Only+Just+A+Call+Away+lyrics&oq=The+Struts+-+Only+Just+A+Call+Away+lyrics",
+                minusUrl: "http://docs.google.com/uc?export=open&id=19-8Y16t5ymKJBF91xNBetSamJDZDUEqK"
+            },
+            {
+                id: 23,
+                title: "James Arthur - Say You Won't Let Go",
+                lyricsUrl: "https://x-minus.pro/track/319391/james-arthur"
+            },
+            {
+                id: 24,
+                title: "Maneskin - Beggin'",
+                lyricsUrl: "https://x-minus.pro/track/509664/beggin"
+            },
+            {
+                id: 25,
+                title: "Billy Joel - Vienna",
+                lyricsUrl: "https://x-minus.pro/track/486546/vienna"
+            },
+            {
+                id: 26,
+                title: "The Struts - Strange Days",
+                lyricsUrl: "https://www.google.com/search?q=the+struts+strange+days+lyrics&oq=The+Struts+-+Strange+Days",
+                minusUrl: "http://docs.google.com/uc?export=open&id=1uDiDCCmGfeiTJUGa15cfRjoI3-HshUA9"
+            },
+            {
+                id: 27,
+                title: "Maneskin - The Loneliest",
+                lyricsUrl: "https://x-minus.pro/track/601704/the-loneliest"
+            },
+            {
+                id: 28,
+                title: "The Struts - I Always Knew",
+                lyricsUrl: "https://www.smule.com/song/the-struts-i-always-knew-hotline-bling-karaoke-lyrics/1084565586_2871449/arrangement",
+                minusUrl: "http://docs.google.com/uc?export=open&id=1j59jIzt6PIXSsuyNK7mfP3LBq0i6l7FZ"
             }
         ];
-        var inputHtml = 
-        `<table class="table">
+        var inputHtml =
+            `<table class="table">
             <thead>
             <tr>
                 <th scope="col">#</th>
@@ -31,18 +196,27 @@
             </tr>
             </thead>
         <tbody>`;
-        data.forEach(e => {
-            inputHtml += 
-            `<tr>
+
+        data
+        .sort((a, b) => b.id - a.id)
+        .forEach(e => {
+            const lyricsRow = e.lyricsUrl && "<td><a href='" + e.lyricsUrl + "' target='_blank'>"
+                + (e.minusUrl ? "Lyrics" : "Lyrics + Minus") + "</a></td>" || "<td></td>";
+            const minusRow = e.minusUrl && "<td><audio preload='none' controls src='"
+                + e.minusUrl + "' type='audio/mp3'></td>" || "<td></td>";
+
+            inputHtml +=
+                `<tr>
                 <th scope="row">${e.id}</th>
                 <td>${e.title}</td>
-                <td><a href="${e.lyricsUrl}" target="_blank">Lyrics</a></td>
-                <td><audio controls src="${e.minusUrl}" type="audio/mp3"></td>
+                ${lyricsRow}
+                ${minusRow}
             </tr>`
         })
         inputHtml += `</tbody></table>`
 
         document.getElementById('main').innerHTML = inputHtml;
     </script>
-  </body>
+</body>
+
 </html>
