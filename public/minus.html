@@ -216,6 +216,8 @@
         inputHtml += `</tbody></table>`
 
         document.getElementById('main').innerHTML = inputHtml;
+
+        [...document.getElementsByTagName('audio')].forEach(e => e.volume = 0.1)
     </script>
 </body>
 
