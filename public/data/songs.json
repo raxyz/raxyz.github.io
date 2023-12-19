@@ -1,20 +1,419 @@
 [
     {
+        "id": 31,
+        "title": "Teddy Swims - Lose Control",
+        "lyricsUrl": "/data/teddy-swims-lose-control-lyrics.txt",
+        "minusUrl": "http://docs.google.com/uc?export=open&id=1coxNUtSFl8LheYcegNo66CtXIPhW0Knp",
+        "externalUrls": [
+            {
+                "source": "YouTube",
+                "icon": "Youtube",
+                "color": "#eb3323",
+                "url": "https://www.youtube.com/watch?v=cARxAPBWaHo"
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "title": "Friday Pilots Club - Would You Mind",
+        "lyricsUrl": "/data/friday-pilots-club-would-you-mind-lyrics.txt",
+        "minusUrl": "http://docs.google.com/uc?export=open&id=16B8WB1On6dolH_vLdyu-v2BwIfOYeEYh",
+        "externalUrls": [
+            {
+                "source": "YouTube",
+                "icon": "Youtube",
+                "color": "#eb3323",
+                "url": "https://www.youtube.com/watch?v=U2rgaXvqcpI"
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "title": "Friday Pilots Club - Glory",
+        "lyricsUrl": "/data/friday-pilots-club-glory-lyrics.txt",
+        "minusUrl": "http://docs.google.com/uc?export=open&id=1WEcuynGakzDJFevEtj09gEPSS0Xy_XFm",
+        "externalUrls": [
+            {
+                "source": "YouTube",
+                "icon": "Youtube",
+                "color": "#eb3323",
+                "url": "https://www.youtube.com/watch?v=5ojrlpqtBI4"
+            }
+        ]
+    },
+    {
         "id": 28,
         "title": "The Struts - I Always Knew",
         "minusUrl": "http://docs.google.com/uc?export=open&id=1j59jIzt6PIXSsuyNK7mfP3LBq0i6l7FZ",
-        "originalUrl": "https://www.youtube.com/watch?v=9HY2LnZ2jw4",
-        "textUrl": "/data/the-struts-i-always-knew/lyrics.txt",
+        "lyricsUrl": "/data/the-struts-i-always-knew-lyrics.txt",
         "iconUrl": "https://i1.sndcdn.com/artworks-p9t7tnjjzEro-0-t500x500.jpg",
-        "xminusUrl": ""
+        "externalUrls": [
+            {
+                "source": "YouTube",
+                "icon": "Youtube",
+                "color": "#eb3323",
+                "url": "https://www.youtube.com/watch?v=9HY2LnZ2jw4"
+            }
+        ]
     },
     {
         "id": 27,
         "title": "Maneskin - The Loneliest",
-        "minusUrl": "",
-        "originalUrl": "https://www.youtube.com/watch?v=Yogyx0ziYbE",
-        "textUrl": "/maneskin-the-loneliest/lyrics.txt",
+        "lyricsUrl": "/data/maneskin-the-loneliest-lyrics.txt",
         "iconUrl": "https://i1.sndcdn.com/artworks-YagQ4ilKX5vlDXGJ-6kWEUg-t500x500.jpg",
-        "xminusUrl": "https://x-minus.pro/track/601704/the-loneliest"
+        "externalUrls": [
+            {
+                "source": "x-minus",
+                "icon": "MusicNoteBeamed",
+                "color": "#98ed55",
+                "url": "https://x-minus.pro/track/601704/the-loneliest"
+            },
+            {
+                "source": "YouTube",
+                "icon": "Youtube",
+                "color": "#eb3323",
+                "url": "https://www.youtube.com/watch?v=Yogyx0ziYbE"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "title": "The Struts - Strange Days",
+        "lyricsUrl": "/data/the-struts-strange-days-lyrics.txt",
+        "minusUrl": "http://docs.google.com/uc?export=open&id=1uDiDCCmGfeiTJUGa15cfRjoI3-HshUA9",
+        "externalUrls": [
+            {
+                "source": "YouTube",
+                "icon": "Youtube",
+                "color": "#eb3323",
+                "url": "https://www.youtube.com/watch?v=akS40CnnhJU"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "title": "Billy Joel - Vienna",
+        "externalUrls": [
+            {
+                "source": "x-minus",
+                "icon": "MusicNoteBeamed",
+                "color": "#98ed55",
+                "url": "https://x-minus.pro/track/486546/vienna"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "title": "Maneskin - Beggin'",
+        "externalUrls": [
+            {
+                "source": "x-minus",
+                "icon": "MusicNoteBeamed",
+                "color": "#98ed55",
+                "url": "https://x-minus.pro/track/509664/beggin"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "title": "James Arthur - Say You Won't Let Go",
+        "externalUrls": [
+            {
+                "source": "x-minus",
+                "icon": "MusicNoteBeamed",
+                "color": "#98ed55",
+                "url": "https://x-minus.pro/track/319391/james-arthur"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "title": "The Struts - Only Just A Call Away",
+        "lyricsUrl": "/data/the-struts-only-just-a-call-away-lyrics.txt",
+        "minusUrl": "http://docs.google.com/uc?export=open&id=19-8Y16t5ymKJBF91xNBetSamJDZDUEqK",
+        "externalUrls": [
+            {
+                "source": "YouTube",
+                "icon": "Youtube",
+                "color": "#eb3323",
+                "url": "https://www.youtube.com/watch?v=_SjN516BlKU"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "title": "Egypt Central - 15 Minutes",
+        "lyricsUrl": "/data/egypt-central-15-minutes-lyrics.txt",
+        "minusUrl": "http://docs.google.com/uc?export=open&id=1NBl35h9sR18NgJwXtZGssHkCiJ5wBj3y",
+        "externalUrls": [
+            {
+                "source": "YouTube",
+                "icon": "Youtube",
+                "color": "#eb3323",
+                "url": "https://www.youtube.com/watch?v=nwqGUT1dRog"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "title": "Theory of a Deadman - Shape of My Heart",
+        "lyricsUrl": "/data/theory-of-a-deadman-shape-of-my-heart-lyrics.txt",
+        "minusUrl": "http://docs.google.com/uc?export=open&id=1zFQxl8sUQscmKwDMNVp2sV5rRT4rJioY",
+        "externalUrls": [
+            {
+                "source": "YouTube",
+                "icon": "Youtube",
+                "color": "#eb3323",
+                "url": "https://www.youtube.com/watch?v=ZdqI-M22k8Q"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "title": "Josh Turner - Your Man",
+        "externalUrls": [
+            {
+                "source": "x-minus",
+                "icon": "MusicNoteBeamed",
+                "color": "#98ed55",
+                "url": "https://x-minus.pro/track/207045/your-man-4"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "title": "Muse - Won't Stand Down",
+        "externalUrls": [
+            {
+                "source": "x-minus",
+                "icon": "MusicNoteBeamed",
+                "color": "#98ed55",
+                "url": "https://x-minus.pro/track/585381/wont-stand-down"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "title": "Three Days Grace - The Chain",
+        "lyricsUrl": "/data/three-days-grace-the-chain-lyrics.txt",
+        "minusUrl": "http://docs.google.com/uc?export=open&id=1lmHwmBPHKhRl50Ut9xd5M7BEqrBT5NpZ",
+        "externalUrls": [
+            {
+                "source": "YouTube",
+                "icon": "Youtube",
+                "color": "#eb3323",
+                "url": "https://www.youtube.com/watch?v=-geX-fUa-8Q"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "title": "Ed Sheeran - Perfect",
+        "externalUrls": [
+            {
+                "source": "x-minus",
+                "icon": "MusicNoteBeamed",
+                "color": "#98ed55",
+                "url": "https://x-minus.pro/track/347268/perfect"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Limp Bizkit - Behind Blue Eyes",
+        "externalUrls": [
+            {
+                "source": "x-minus",
+                "icon": "MusicNoteBeamed",
+                "color": "#98ed55",
+                "url": "https://x-minus.pro/track/485783/behind-blue-eyes"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Rayn Gosling, Emma Stone - City Of Stars",
+        "externalUrls": [
+            {
+                "source": "x-minus",
+                "icon": "MusicNoteBeamed",
+                "color": "#98ed55",
+                "url": "https://x-minus.pro/track/410350/city-of-stars"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Sully Erna - Turn It Up!",
+        "lyricsUrl": "/data/sully-erna-turn-it-up-lyrics.txt",
+        "minusUrl": "http://docs.google.com/uc?export=open&id=1i49AN785AIVluuTHcGDmmakMVE0I0uJB",
+        "externalUrls": [
+            {
+                "source": "YouTube",
+                "icon": "Youtube",
+                "color": "#eb3323",
+                "url": "https://www.youtube.com/watch?v=9VzIpZh5FRY"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Mark Ronson, Bruno Mars - Uptown Fund",
+        "externalUrls": [
+            {
+                "source": "x-minus",
+                "icon": "MusicNoteBeamed",
+                "color": "#98ed55",
+                "url": "https://x-minus.pro/track/299700/uptown-funk"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "title": "The Cab - Lock Me Up",
+        "lyricsUrl": "/data/the-cab-lock-me-up-lyrics.txt",
+        "minusUrl": "http://docs.google.com/uc?export=open&id=1UnLwe_Qyy2fCRcmKhJzwtzml_sUnu4TT",
+        "externalUrls": [
+            {
+                "source": "YouTube",
+                "icon": "Youtube",
+                "color": "#eb3323",
+                "url": "https://www.youtube.com/watch?v=5XF_XwFixAg"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Finger Eleven - Paralyzer",
+        "externalUrls": [
+            {
+                "source": "x-minus",
+                "icon": "MusicNoteBeamed",
+                "color": "#98ed55",
+                "url": "https://x-minus.pro/track/197954/paralyzer"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Nothing But Thieves - Sorry",
+        "externalUrls": [
+            {
+                "source": "x-minus",
+                "icon": "MusicNoteBeamed",
+                "color": "#98ed55",
+                "url": "https://x-minus.pro/track/366457/sorry"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Burn The Ballroom - A Ship That Shared Your Name",
+        "lyricsUrl": "/data/burn-the-ballroom-a-ship-that-shared-your-name-lyrics.txt",
+        "minusUrl": "http://docs.google.com/uc?export=open&id=1eHv-5L-Q1BHsSF7ySKpt5rG6ORMR8bTK",
+        "externalUrls": [
+            {
+                "source": "YouTube",
+                "icon": "Youtube",
+                "color": "#eb3323",
+                "url": "https://www.youtube.com/watch?v=U6fpAuW9EVQ"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Stone Sour - Through Glass",
+        "externalUrls": [
+            {
+                "source": "x-minus",
+                "icon": "MusicNoteBeamed",
+                "color": "#98ed55",
+                "url": "https://x-minus.pro/track/16487/through-glass"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Danny Worsnop - Best Bad Habit",
+        "lyricsUrl": "/data/danny-worsnop-best-bad-habit-lyrics.txt",
+        "minusUrl": "http://docs.google.com/uc?export=open&id=1C9IDCHtdJyJ8vnL8tSJJRSrTZU-cWz4c",
+        "externalUrls": [
+            {
+                "source": "YouTube",
+                "icon": "Youtube",
+                "color": "#eb3323",
+                "url": "https://www.youtube.com/watch?v=aeD6zk6dx94"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Thousand Foot Krutch - Untraveled Road",
+        "lyricsUrl": "/data/thousand-foot-krutch-untraveled-road-lyrics.txt",
+        "minusUrl": "http://docs.google.com/uc?export=open&id=1LKOiWuQvJsp7Nb1NYFkONjSKCAzXNOr6",
+        "externalUrls": [
+            {
+                "source": "YouTube",
+                "icon": "Youtube",
+                "color": "#eb3323",
+                "url": "https://www.youtube.com/watch?v=jSD5vSSGLOM"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Felix Hagan & the Family - Tough to Be a Dreamer",
+        "lyricsUrl": "/data/felix-hagan-the-family-tough-to-be-a-dreamer-lyrics.txt",
+        "minusUrl": "http://docs.google.com/uc?export=open&id=14NHWL19aC0Am1wbSctOteHvcRs8Rvf3V",
+        "externalUrls": [
+            {
+                "source": "YouTube",
+                "icon": "Youtube",
+                "color": "#eb3323",
+                "url": "https://www.youtube.com/watch?v=eiQLIXAsqTo"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Papa Roach - Leave a Light On",
+        "lyricsUrl": "/data/papa-roach-leave-a-light-on-lyrics.txt",
+        "minusUrl": "http://docs.google.com/uc?export=open&id=1tNSrZ1hNCKB6iBY6T6j5siyVrUXugKMW",
+        "externalUrls": [
+            {
+                "source": "YouTube",
+                "icon": "Youtube",
+                "color": "#eb3323",
+                "url": "https://www.youtube.com/watch?v=jB7i_2aaXHQ"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Friday Pilot Club - End of It",
+        "lyricsUrl": "/data/friday-pilot-club-end-of-it-lyrics.txt",
+        "minusUrl": "http://docs.google.com/uc?export=open&id=1th9eYac0_PIfWE6UMvSHy4xk9SXPZ3pw",
+        "externalUrls": [
+            {
+                "source": "YouTube",
+                "icon": "Youtube",
+                "color": "#eb3323",
+                "url": "https://www.youtube.com/watch?v=N5evGCGyRKA"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "title": "Saint Asonia - Waste My Time",
+        "lyricsUrl": "/data/saint-asonia-waste-my-time-lyrics.txt",
+        "minusUrl": "http://docs.google.com/uc?export=open&id=156lz3E6BSU-nxalJ86fn8Qb_dbWXgtxD",
+        "externalUrls": [
+            {
+                "source": "YouTube",
+                "icon": "Youtube",
+                "color": "#eb3323",
+                "url": "https://www.youtube.com/watch?v=qUyQOmU3D_k"
+            }
+        ]
     }
 ]
