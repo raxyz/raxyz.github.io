@@ -6,8 +6,14 @@ export interface Song {
     id: number;
     title: string;
     minusUrl: string;
-    originalUrl: string;
-    textUrl: string;
+    lyricsUrl: string;
     iconUrl: string;
-    xminusUrl: string;
+    externalUrls: ExternalUrl[];
+}
+
+export interface ExternalUrl {
+    source: string;
+    icon: string;
+    url: string;
+    color: string;
 }
