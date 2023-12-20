@@ -1,0 +1,5 @@
+.lyrics-hover:hover {
+    background-color: lightgray;
+    cursor: pointer;
+    transition: background-color .2s
+}

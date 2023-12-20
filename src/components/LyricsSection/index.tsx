@@ -1,4 +1,5 @@
 import { LyricRow, Lyrics } from "../../services/fetchSongs";
+import './index.css'
 
 interface LyricsSectionProps {
     lyrics: Lyrics;
@@ -16,7 +17,7 @@ export const LyricsSection = (props: LyricsSectionProps) => {
 
     const rowItems = props.lyrics.rows.map((r, i) => {
         return r.text
-            ? <span key={i++} onClick={() => clickOnRow(r)}>{r.text}</span>
+            ? <span key={i++} onClick={() => clickOnRow(r)} className="lyrics-hover">{r.text}</span>
             : <span key={i++}><br /></span>;
     });
 
