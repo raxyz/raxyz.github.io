@@ -15,7 +15,7 @@ function AudioPlayer(props: AudioPlayerInput) {
 
     useEffect(() => {
         if (audioRef.current && onPositionChange != null) {
-            audioRef.current.currentTime = onPositionChange ?? 0;
+            audioRef.current.currentTime = onPositionChange;
         }
     }, [url, onPositionChange]);
 

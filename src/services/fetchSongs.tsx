@@ -69,7 +69,7 @@ export const convertToLyrics = (text: string) => {
 
         const parts = line.split(' ');
         const firstPart = parts.shift() || '';
-        let position = 0;
+        let position = null;
         let text: string | null = '';
 
         if (!isNaN(parseInt(firstPart, 10))) {

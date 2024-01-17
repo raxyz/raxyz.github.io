@@ -17,7 +17,7 @@ export const LyricsSection = (props: LyricsSectionProps) => {
 
     const rowItems = props.lyrics.rows.map((r, i) => {
         return r.text
-            ? <span key={i++} onClick={() => clickOnRow(r)} className="lyrics-hover">{r.text}</span>
+            ? <span key={i++} onClick={() => clickOnRow(r)} className="fs-5 lyrics-hover">{r.text}</span>
             : <span key={i++}><br /></span>;
     });
 
