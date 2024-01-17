@@ -1,5 +1,48 @@
 [
     {
+        "id": 34,
+        "title": "Friday Pilots Club - Bad as Hell",
+        "iconUrl": "https://i.scdn.co/image/ab67616d0000b273cfba3220cbb2d4a4d15782ca",
+        "minusUrl": "http://docs.google.com/uc?export=open&id=1GCRjnCdgjsFMOnnhCLsUOoYIvID4e_VZ",
+        "lyricsUrl": "/data/friday-pilots-club-bad-as-hell-lyrics.txt",
+        "externalUrls": [
+            {
+                "source": "YouTube",
+                "icon": "Youtube",
+                "color": "#eb3323",
+                "url": "https://www.youtube.com/watch?v=skC7JKhT3iA"
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "title": "Friday Pilots Club - Gold and Bones",
+        "iconUrl": "https://i.scdn.co/image/ab67616d0000b273b5e54d2148fc0bfbbe7b5b87",
+        "minusUrl": "http://docs.google.com/uc?export=open&id=1UYMeena6aihkg71-gnku9XFCNxj4iQgV",
+        "lyricsUrl": "/data/friday-pilots-club-gold-and-bones-lyrics.txt",
+        "externalUrls": [
+            {
+                "source": "YouTube",
+                "icon": "Youtube",
+                "color": "#eb3323",
+                "url": "https://www.youtube.com/watch?v=X7rVc-CUPWc"
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "title": "Queen - Bohemian Rapsody",
+        "iconUrl": "https://i.scdn.co/image/ab67616d0000b273e8b066f70c206551210d902b",
+        "externalUrls": [
+            {
+                "source": "x-minus",
+                "icon": "MusicNoteBeamed",
+                "color": "#98ed55",
+                "url": "https://x-minus.pro/track/37549/bohemian-rapsody"
+            }
+        ]
+    },
+    {
         "id": 31,
         "title": "Teddy Swims - Lose Control",
         "lyricsUrl": "/data/teddy-swims-lose-control-lyrics.txt",
