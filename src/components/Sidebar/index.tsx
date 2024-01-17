@@ -19,7 +19,9 @@ function Sidebar(props: SidebarProps) {
                     </ListGroup.Item>
                 ))}
             </ListGroup>
-            <Alert variant="dark"><a href="https://drive.google.com/drive/folders/192w7KsXFNSCDtt81MJ6yd5cGD7XmBJ1X?usp=drive_link">All minuses</a></Alert>
+            <Alert variant="dark">
+                <a href="https://drive.google.com/drive/folders/192w7KsXFNSCDtt81MJ6yd5cGD7XmBJ1X?usp=drive_link" target="_blank">All minuses</a>
+            </Alert>
         </>
     );
 }
